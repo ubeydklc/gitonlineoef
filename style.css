@@ -1,0 +1,103 @@
+/*body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    background-image: url(../images/sun-pattern.png);
+}*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5em;
+    font-weight: 100;
+    text-align: center;
+    background-image: url('hao-wang-pVq6YhmDPtk-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    /* Een aanpassing doen */
+
+}
+h1 {
+    font-size: 70px;
+    font-weight: 200;
+    color: azure;
+}
+
+h1, h2, h3, span, ul {
+    color: azure;
+}
+
+#random {
+    font-size: 30px;
+    font-weight: 500;
+}
+h3 {
+    font-weight: 300;
+}
+
+a { 
+    text-decoration: none;
+    color: red;
+}
+
+a:hover { color: rgb(197, 74, 74);}
+
+.fhonebutton {
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    /* Truukje van de foor, om elementen in het midden te plaatsen. */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 15px 20px; bottom en left ook identiek */
+    /* identiek het zelfde
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    enkel een padding bottom willen,
+    padding-bottom: 10px; */
+    background-color:#ff443d;
+    border-radius: 3px;
+    color: white;
+    margin-bottom:20px;
+    /* display: block; Dit wegdoen om ze naast elkaar te plaatsen */
+    width: 150px;
+}
+/*
+    text-decoration: none;
+    padding: 3px;
+    background-color: rgb(247, 3, 3);
+    border-radius: 3px;
+    color: white;
+    display: block;
+   
+    /*trukje om elementen in midden te plaatsen*//*
+    margin-left: auto;
+    margin-right: auto;
+}*/
+.fhonebutton:hover{
+    background-color: rgb(88, 0, 88);
+    color: white;
+}
+
+.subheader{
+
+    /* Zorg dat het bestand lokaal in de map leeft...  */
+background-image: url('james-harrison-UVMPVIRCF5w-unsplash.jpg');
+
+    /* Het instellen van onze minimale hoogte van ons div element */
+    min-height: 500px;
+    /* De achtergrondafbeelding netjes weergeven in ons div element */
+    background-size: cover;
+    color:white;
+    font-size: 30px;
+    /*text centreren in foto*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 800px;
+}
